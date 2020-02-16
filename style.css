@@ -16,53 +16,61 @@ main
 	width: 960px;
 	margin: 50px auto;
 }
-.list
-{
-	margin-bottom: 50px;
-}
 
-.list-item
+.boxes
 {
-	padding: 20px;
-	list-style: none;
-}
-
-.list-item:nth-child(odd)
-{
-	background-color: #c0c0c0;
-}
-
-.box
-{
-	width: 30%;
-	height: 200px;
 	float: left;
-	margin-right: 5%;
-	margin-bottom: 40px;
-	background-color: yellow;
+	width: 300px;
+	margin-right: 30px;
+	padding: 10px;
+	border: 1px solid #f7f7f7;
+	position: relative;
 }
 
-.box:first-child
+.boxes:last-child
 {
+	margin-right: 0px;
+}
+
+.box-img1
+{
+	width: 280px;
+	height: 200px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.box-img2
+{
+	width: 280px;
+	height: 200px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.box-img3
+{
+	width: 280px;
+	height: 200px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: top;
+}
+
+.box-text-content
+{
+	background-position: bottom;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.step
+{
+	position: absolute;
 	background-color: orange;
-}
-
-.box:last-child
-{
-	background-color: orange;
-}
-
-.box:nth-child(5)
-{
-	background-color: orange;
-}
-
-.box:nth-child(3n)
-{
-	margin-right: 0;
-}
-
-.box:nth-child(6+n)
-{
-	margin-bottom: 0;
+	top: 0;
+	left: 0;
+	color: white;
 }
