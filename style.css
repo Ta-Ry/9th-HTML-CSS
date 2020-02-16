@@ -59,6 +59,11 @@ main
 	background-position: top;
 }
 
+.box-text
+{
+	width: 280px;
+}
+
 .box-text-content
 {
 	background-position: bottom;
